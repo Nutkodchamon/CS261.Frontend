@@ -7,7 +7,7 @@ body {
     width: 300px;
     margin: 100px auto;
     padding: 20px;
-    background-color: #5a87ca;
+    background-color: #afc0d7;
     border-radius: 5px;
     box-shadow: 0 0 10px #d512121a;
 }
@@ -53,8 +53,8 @@ select {
     margin-bottom: 10px;
     border: 1px solid #9960b0;
     border-radius: 4px;
-    background-color: #e8eeef;
-    color: #f3fafc;
+    background-color: #4c2092;
+    color: #1a1381;
     appearance: none;
     background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTRweCIgaGVpZ2h0PSI4cHgiIHZpZXdCb3g9IjAgMCAxNCA4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xIDVsNCA0IDQtNCIgc3Ryb2tlPSIjNzA3MDcwIiBzdHJva2Utd2lkdGg9IjIuNSIvPjwvc3ZnPg==') no-repeat right 10px center;
     background-size: 12px;
@@ -72,10 +72,10 @@ select:focus {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #bbc2ca;
+    background-color: #030c16;
     border: none;
     border-radius: 4px;
-    color: #fff;
+    color: #1a1818;
     cursor: pointer;
 }
 
