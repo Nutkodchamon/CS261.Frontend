@@ -62,27 +62,27 @@ select {
     cursor: pointer;
 }
 
-/* Focus state for the dropdown */
-select:focus {
-    border-color: #054a93;
-    outline: none;
-}
-
-/* Button styling */
+/* Button styles */
 button {
     width: 100%;
     padding: 10px;
-    background-color: #030c16;
+    background-color: #007bff;
     border: none;
-    border-radius: 4px;
-    color: #1a1818;
+    color: #fff;
     cursor: pointer;
+    border-radius: 4px;
 }
 
+/* Hover effect for the button */
 button:hover {
-    background-color: #41648b;
+    background-color: #0056b3;
 }
 
+/* Disabled button styles */
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
 /* Message text styling */
 #message {
     margin-top: 20px;
