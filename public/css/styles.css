@@ -1,15 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #b2dcdb;
 }
 
 .login-container {
     width: 300px;
     margin: 100px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #5a87ca;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #d512121a;
 }
 
 h1 {
@@ -24,24 +24,76 @@ label {
 
 input {
     width: 100%;
-    padding: 8px;
+    padding: 8px 0px;
     margin-bottom: 10px;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #0b1218;
     border: none;
-    color: #fff;
+    color: #5d4569;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #98a7b7;
 }
 
 #message {
     margin-top: 20px;
     text-align: center;
+}
+
+/* Role Selection Dropdown Styling */
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #9960b0;
+    border-radius: 4px;
+    background-color: #e8eeef;
+    color: #f3fafc;
+    appearance: none;
+    background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTRweCIgaGVpZ2h0PSI4cHgiIHZpZXdCb3g9IjAgMCAxNCA4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xIDVsNCA0IDQtNCIgc3Ryb2tlPSIjNzA3MDcwIiBzdHJva2Utd2lkdGg9IjIuNSIvPjwvc3ZnPg==') no-repeat right 10px center;
+    background-size: 12px;
+    padding-right: 30px; /* Space for the arrow */
+    cursor: pointer;
+}
+
+/* Focus state for the dropdown */
+select:focus {
+    border-color: #054a93;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #bbc2ca;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #41648b;
+}
+
+/* Message text styling */
+#message {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(2, 2, 2);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 480px) {
+    .login-container {
+        width: 90%;
+        margin: 50px auto;
+    }
 }
